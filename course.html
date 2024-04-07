@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Vertical Timeline </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="chat_bot.html">Commmunity</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">InCooding</a></li>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="service.html">Service</a></li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="chat_bot.html">Commmunity</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+	  <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+	  <h1 class="course_intro">Let's choose your Subject.</h1>
+	  <h2 class="course_intro">Click on the subject where you want to be eplore.</h2>
+	  <h1 class="course_intro">⬇️</h1>
+
+<section class="timeline-section">
+	<div class="timeline-items">
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-1</div>
+			<a class="courses" href="blockchain.html">
+				<div class="timeline-content">
+				<h3>Blockchain.</h3>
+				<p>Blockchain is a decentralized, immutable digital ledger technology that records transactions across a network of computers, providing transparency, security, and efficiency.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-2</div>
+			<a class="courses" href="crypto.html">
+			<div class="timeline-content">
+				<h3>Crypto.</h3>
+				<p>Cryptocurrency, a digital form of currency secured by cryptography and decentralized through blockchain technology, revolutionizes finance by enabling peer-to-peer transactions and challenging traditional banking systems.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-3</div>
+			<a class="courses" href="data_any.html">
+			<div class="timeline-content">
+				<h3>Data Analysis</h3>
+				<p>Data analysis involves examining, cleansing, transforming, and interpreting raw data to extract insights, identify patterns, and make informed decisions, leveraging techniques such as statistical analysis, machine learning, and data visualization to uncover trends, correlations, and actionable information that drive business strategies, optimize processes, and improve outcomes.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-4</div>
+			<a class="courses" href="genai.html">
+			<div class="timeline-content">
+				<h3>GenAI</h3>
+				<p>General AI, also known as artificial general intelligence (AGI), refers to AI systems capable of understanding, learning, and performing tasks across diverse domains, exhibiting human-like cognitive abilities.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-5</div>
+			<a class="courses" href="cyber_security.html">
+			<div class="timeline-content">
+				<h3>Cyber Security</h3>
+				<p>Cybersecurity involves protecting computer systems, networks, and data from unauthorized access, cyberattacks, and data breaches by implementing measures such as encryption, firewalls, intrusion detection systems, and security protocols to safeguard digital assets, privacy, and operational integrity.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-6</div>
+			<a class="courses" href="iot.html">
+			<div class="timeline-content">
+				<h3>IOT</h3>
+				<p>The Internet of Things (IoT) is a network of interconnected devices that can communicate and share data without human intervention. It enables remote monitoring, automation, and control of various objects and environments, revolutionizing industries and daily life with its vast potential for efficiency and convenience.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-7</div>
+			<a class="courses" href="ar_vr.html">
+			<div class="timeline-content">
+				<h3>AR/VR</h3>
+				<p>Augmented Reality (AR) and Virtual Reality (VR) technologies immerse users in virtual environments or enhance real-world experiences through digital overlays, transforming industries such as gaming, education, healthcare, and retail with potential applications ranging from virtual meetings to immersive training simulations.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-8</div>
+			<a class="courses" href="web.html">
+			<div class="timeline-content">
+				<h3>Web Development</h3>
+				<p>Web development involves creating and maintaining websites or web applications by utilizing programming languages such as HTML, CSS, and JavaScript, alongside frameworks and tools, to design, code, deploy, and manage interactive and user-friendly digital experiences accessible via web browsers across various devices.</p>
+			</div>
+			</a>
+		</div>
+
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-9</div>
+			<a class="courses" href="app.html">
+			<div class="timeline-content">
+				<h3>App Development</h3>
+				<p>App development involves designing, creating, and maintaining software applications for mobile devices or desktop platforms, utilizing programming languages such as Java, Swift, or Kotlin, alongside development frameworks and tools, to deliver engaging and functional user experiences tailored to specific operating systems like iOS or Android.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-10</div>
+			<a class="courses" href="cloud.html">
+			<div class="timeline-content">
+				<h3>Cloud & Develop</h3>
+				<p>Cloud computing encompasses the delivery of computing services—such as storage, processing power, and software—over the internet, enabling on-demand access to scalable resources that can be rapidly provisioned and managed, facilitating innovation, cost-efficiency, and agility in software development, deployment, and operations.</p>
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-11</div>
+			<a class="courses" href="openinnovation.html">
+			<div class="timeline-content">
+				<h3>Open Innivation</h3>
+				<p>Open innovation is a collaborative approach that involves leveraging external ideas, technologies, and resources alongside internal ones to accelerate innovation, foster creativity, and drive growth by engaging with a diverse network of stakeholders, including customers, partners, and communities, to co-create value and solve complex challenges.</p>
+			</div>
+			</a>
+		</div>
+		
+	</div>
+</section>
+
+</body>
+</html>
